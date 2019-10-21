@@ -3,7 +3,7 @@ const routes = require('./routes');
 const mongoose = require('mongoose');
 const app = express();
 
-mongoose.connect('mongodb+srv://teste:teste@cluster0-j66pd.mongodb.net/test?retryWrites=true&w=majority',{useUnifiedTopology: true,useNewUrlParser: true,useFindAndModify: true});
+mongoose.connect('mongodb+srv://teste:teste@cluster0-j66pd.mongodb.net/test?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: true });
 
 
 app.use(express.json());

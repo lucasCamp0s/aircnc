@@ -29,5 +29,5 @@ export default function Dashboard(){
           <button className="btn">Cadastrar novo spot</button>
         </Link>
         </>
-    )
+    );
 }

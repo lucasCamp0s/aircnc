@@ -68,9 +68,7 @@ font-size: 16px;
   color: #fff;
   cursor: pointer;
 }
-.container .logo{
-  height: 100px;
-}
+
 .content button.btn:hover{
   background: #e14f50;
 }
